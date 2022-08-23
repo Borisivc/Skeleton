@@ -42,7 +42,6 @@
                     <ion-datetime id="datetime"></ion-datetime>
                 </ng-template>
             </ion-modal>
-
         </ion-item>
         <ion-item>
             <ion-button href="menu">Lmpiar</ion-button>
@@ -52,7 +51,11 @@
 
     <ion-button href="home">Volver</ion-button>
 
-
+    <ion-item>
+        <ion-icon icon="calendar-outline" slot="start" color="primary"></ion-icon>
+        <ion-label>Pick date</ion-label>
+        <ion-text slot="end">{{ formatedString}}</ion-text>
+    </ion-item>
 
 
 </ion-content>

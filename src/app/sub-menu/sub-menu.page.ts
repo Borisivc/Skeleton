@@ -6,7 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./sub-menu.page.scss'],
 })
 export class SubMenuPage implements OnInit {
-f_nac:Date = new Date();
+    modes=['date'];
+    selectedmode='date';
+  
   constructor() { }
 
   ngOnInit() {
