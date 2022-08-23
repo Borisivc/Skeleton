@@ -10,43 +10,49 @@
     <ion-card>
 
         <ion-item>
-            <ion-label>Nombre</ion-label>
+            <ion-label>
+                <p>Nombre :</p>
+            </ion-label>
             <ion-input></ion-input>
         </ion-item>
 
         <ion-item>
-            <ion-label>Apellido</ion-label>
+            <ion-label>
+                <p>Apellido :</p>
+            </ion-label>
             <ion-input></ion-input>
         </ion-item>
 
         <ion-item>
-            <ion-label>Nivel Educacion</ion-label>
+            <ion-label>
+                <p>Nivel Educacion :</p>
+            </ion-label>
             <ion-input></ion-input>
         </ion-item>
 
         <ion-item>
-            <ion-label>Fecha Nacimiento</ion-label>
-            <ion-input></ion-input>
-            <ion-datetime-button datetime="datetime"></ion-datetime-button>
-
-<ion-modal [keepContentsMounted]="true">
-  <ng-template>
-    <ion-datetime id="datetime"></ion-datetime>
-  </ng-template>
-</ion-modal>
+            <ion-label>
+                <p>F. Nacimiento</p>
+            </ion-label>
+            <ion-label>
+                <ion-datetime-button datetime="datetime"></ion-datetime-button>
+            </ion-label>
+            <ion-modal [keepContentsMounted]="true">
+                <ng-template>
+                    <ion-datetime id="datetime"></ion-datetime>
+                </ng-template>
+            </ion-modal>
 
         </ion-item>
-
+        <ion-item>
+            <ion-button href="menu">Lmpiar</ion-button>
+            <ion-button href="">Mostrar</ion-button>
+        </ion-item>
     </ion-card>
 
     <ion-button href="home">Volver</ion-button>
 
-</ion-content>
 
-<ion-content>
 
-    <ion-item>
-        <ion-button href="menu">Lmpiar</ion-button>
-        <ion-button href="">Mostrar</ion-button>
-    </ion-item>
+
 </ion-content>

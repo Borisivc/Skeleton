@@ -1,6 +1,31 @@
-h1 {
+ion-header {
+    --ion-background-color: rgba(36, 35, 35, 0.712);
+}
+
+ion-content {
+    --ion-background-color: rgba(36, 35, 35, 0.712);
+}
+
+ion-label {
+    --ion-background-color: rgba(36, 35, 35, 0.712);
+}
+
+ion-card {
+    --ion-background-color: rgba(36, 35, 35, 0.712);
+}
+
+ion-item {
+    --ion-background-color: rgba(36, 35, 35, 0.712);
+}
+
+h1,
+h2 {
     margin: auto;
     text-align: center;
-    font-size: 18px;
-    color: black;
+    font-size: 25px;
+    color: white;
+}
+
+p {
+    color: white;
 }
